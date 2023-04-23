@@ -1,7 +1,117 @@
-:root {
+/* :root {
     --primary-text-color:#2E2F42;
     --titte-text-color:
     --accent-color:
     --primary-white-color:
-}
+} */
 /* var(--primary-text-color)*/
+body {
+  background-color: #ffffff;
+  color: #434455;
+}
+ul {
+  list-style: none;
+}
+.logo {
+  color: #4d5ae5;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+}
+.logo-studio {
+  color: #2e2f42;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+}
+.site-nav {
+  color: #2e2f42;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+.address-link {
+  color: #434455;
+  /* color: rgba(67, 68, 85, 0.25); */
+}
+.hero {
+  background: #2e2f42;
+}
+.hero-title {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+}
+.button {
+  background: #4d5ae5;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+.features-title {
+  color: #2e2f42;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+.features-text {
+  color: #2e2f42;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+.our-job {
+  color: #2e2f42;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+}
+.our-team {
+  background: #f4f4fd;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: #2e2f42;
+}
+.our-team-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #2e2f42;
+}
+.our-team-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #434455;
+}
+.footer-logo {
+  background: #2e2f42;
+}
+.footer-logo-studio {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  color: #f4f4fd;
+}
+.footer-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #f4f4fd;
+}
