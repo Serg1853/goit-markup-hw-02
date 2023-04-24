@@ -8,6 +8,7 @@
 body {
   background-color: #ffffff;
   color: #434455;
+  font-family: 'Roboto';
 }
 ul {
   list-style: none;
@@ -35,7 +36,6 @@ ul {
 }
 .address-link {
   color: #434455;
-  /* color: rgba(67, 68, 85, 0.25); */
 }
 .hero {
   background: #2e2f42;
