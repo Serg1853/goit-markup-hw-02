@@ -8,7 +8,10 @@
 body {
   background-color: #ffffff;
   color: #434455;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
+}
+a {
+  text-decoration: none;
 }
 ul {
   list-style: none;
@@ -34,8 +37,22 @@ ul {
   font-weight: 500;
   font-size: 16px;
 }
+.site-nav a:hover,
+.site-nav a:focus {
+  color: #404bbf;
+}
 .address-link {
   color: #434455;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
 }
 .hero {
   background: #2e2f42;
@@ -114,4 +131,64 @@ ul {
   font-weight: 400;
   font-size: 16px;
   color: #f4f4fd;
+}
+.filters-button {
+  font-weight: 500;
+  font-size: 16px;
+  color: #4d5ae5;
+}
+.all {
+  background: #f4f4fd;
+  color: #4d5ae5;
+}
+.all:focus,
+.all:hover {
+  background: #404bbf;
+  color: #ffffff;
+}
+.web-site {
+  background: #f4f4fd;
+  color: #4d5ae5;
+}
+.web-site:focus,
+.web-site:hover {
+  background: #404bbf;
+  color: #ffffff;
+}
+.app {
+  background: #f4f4fd;
+  color: #4d5ae5;
+}
+.app:focus,
+.app:hover {
+  background: #404bbf;
+  color: #ffffff;
+}
+.design {
+  background: #f4f4fd;
+  color: #4d5ae5;
+}
+.design:focus,
+.design:hover {
+  background: #404bbf;
+  color: #ffffff;
+}
+.marketing {
+  background: #f4f4fd;
+  color: #4d5ae5;
+}
+.marketing:focus,
+.marketing:hover {
+  background: #404bbf;
+  color: #ffffff;
+}
+.filters-images-title {
+  font-weight: 500;
+  font-size: 20px;
+  color: #2e2f42;
+}
+.filters-images-text {
+  font-weight: 400;
+  font-size: 16px;
+  color: #434455;
 }
