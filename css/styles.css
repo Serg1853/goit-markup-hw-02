@@ -30,7 +30,7 @@ ul {
   font-weight: 800;
   font-size: 18px;
 }
-.site-nav {
+.site-nav a {
   color: #2e2f42;
   font-family: 'Roboto';
   font-style: normal;
