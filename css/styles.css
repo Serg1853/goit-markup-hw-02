@@ -14,11 +14,14 @@ body {
   font-size: 20px;
   line-height: 1.2;
 }
-a {
-  text-decoration: none;
+button {
+  cursor: pointer;
 }
-ul {
+.list {
   list-style: none;
+}
+.link {
+  text-decoration: none;
 }
 .logo {
   color: #4d5ae5;
@@ -26,19 +29,33 @@ ul {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
+  line-height: 1.17;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
+/* .page-nav {
+  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+} */
 .logo-studio {
   color: #2e2f42;
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
 }
-.site-nav a {
+.site-nav {
   color: #2e2f42;
-  font-size: 16px;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .site-nav a:hover,
 .site-nav a:focus {
@@ -46,7 +63,7 @@ ul {
 }
 .address {
   color: #434455;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -67,8 +84,6 @@ ul {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  /* or 107% */
-
   text-align: center;
 }
 .button {
@@ -84,12 +99,15 @@ ul {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .features-text {
-  color: #2e2f42;
+  /* color: #434455; */
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .our-job {
   color: #2e2f42;
@@ -97,6 +115,8 @@ ul {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 .our-team {
   background: #f4f4fd;
@@ -122,17 +142,21 @@ ul {
   background: #2e2f42;
 }
 .footer-logo-studio {
-  font-family: 'Raleway';
+  color: #f4f4fd;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  color: #f4f4fd;
+  line-height: 1.17;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .footer-text {
   color: #f4f4fd;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.5px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .filters-button {
