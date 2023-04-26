@@ -9,6 +9,10 @@ body {
   background-color: #ffffff;
   color: #434455;
   font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
 }
 a {
   text-decoration: none;
@@ -32,88 +36,87 @@ ul {
 }
 .site-nav a {
   color: #2e2f42;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
   font-size: 16px;
+  font-size: 16px;
+  line-height: 1.5;
 }
 .site-nav a:hover,
 .site-nav a:focus {
   color: #404bbf;
 }
-.address-link {
+.address {
   color: #434455;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
+  line-height: 1.5;
+}
+.address-link {
+  color: #434455;
 }
 .address-link:hover,
 .address-link:focus {
   color: #404bbf;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
 }
 .hero {
   background: #2e2f42;
 }
 .hero-title {
   color: #ffffff;
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 56px;
+  line-height: 1.07;
+  /* or 107% */
+
+  text-align: center;
 }
 .button {
   background: #4d5ae5;
   color: #ffffff;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
-  font-weight: 500;
   font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
 }
 .features-title {
   color: #2e2f42;
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
 }
 .features-text {
   color: #2e2f42;
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
+  line-height: 1.5;
 }
 .our-job {
   color: #2e2f42;
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
 }
 .our-team {
   background: #f4f4fd;
-  font-family: 'Roboto';
-  font-style: normal;
+  color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
-  color: #2e2f42;
+  line-height: 1.11;
+  text-align: center;
 }
 .our-team-title {
-  font-family: 'Roboto';
-  font-style: normal;
+  color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
-  color: #2e2f42;
+  line-height: 1.2;
 }
 .our-team-text {
-  font-family: 'Roboto';
-  font-style: normal;
+  color: #434455;
   font-weight: 400;
   font-size: 16px;
-  color: #434455;
+  line-height: 1.5;
 }
 .footer-logo {
   background: #2e2f42;
@@ -126,11 +129,11 @@ ul {
   color: #f4f4fd;
 }
 .footer-text {
-  font-family: 'Roboto';
-  font-style: normal;
+  color: #f4f4fd;
   font-weight: 400;
   font-size: 16px;
-  color: #f4f4fd;
+  line-height: 1.5px;
+  letter-spacing: 0.02em;
 }
 .filters-button {
   font-weight: 500;
@@ -183,12 +186,14 @@ ul {
   color: #ffffff;
 }
 .filters-images-title {
+  color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
-  color: #2e2f42;
+  line-height: 1.2;
 }
 .filters-images-text {
+  color: #434455;
   font-weight: 400;
   font-size: 16px;
-  color: #434455;
+  line-height: 1.5;
 }
