@@ -185,60 +185,33 @@ button {
   font-size: 16px;
   color: #4d5ae5;
 }
-.all {
+.button-hover {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
   background: #f4f4fd;
   color: #4d5ae5;
 }
-.all:focus,
-.all:hover {
+.button-hover:focus,
+.button-hover:hover {
   background: #404bbf;
   color: #ffffff;
 }
-.web-site {
-  background: #f4f4fd;
-  color: #4d5ae5;
-}
-.web-site:focus,
-.web-site:hover {
-  background: #404bbf;
-  color: #ffffff;
-}
-.app {
-  background: #f4f4fd;
-  color: #4d5ae5;
-}
-.app:focus,
-.app:hover {
-  background: #404bbf;
-  color: #ffffff;
-}
-.design {
-  background: #f4f4fd;
-  color: #4d5ae5;
-}
-.design:focus,
-.design:hover {
-  background: #404bbf;
-  color: #ffffff;
-}
-.marketing {
-  background: #f4f4fd;
-  color: #4d5ae5;
-}
-.marketing:focus,
-.marketing:hover {
-  background: #404bbf;
-  color: #ffffff;
-}
+
 .filters-images-title {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .filters-images-text {
   color: #434455;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
