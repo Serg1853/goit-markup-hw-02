@@ -123,6 +123,9 @@ button {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+.team {
+  background: #f4f4fd;
+}
 .our-team {
   color: #2e2f42;
   font-weight: 700;
