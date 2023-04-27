@@ -94,10 +94,10 @@ button {
   align-items: center;
   letter-spacing: 0.04em;
 }
-.button :hover {
+.button:hover {
   background: #404bbf;
 }
-.button :focus {
+.button:focus {
   background: #404bbf;
 }
 .features-title {
