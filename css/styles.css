@@ -124,6 +124,13 @@ button {
   text-transform: capitalize;
 }
 .our-team {
+  color: #2e2f42;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   background: #f4f4fd;
 }
 .our-team-list {
@@ -136,6 +143,7 @@ button {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
+  background: #ffffff;
 }
 .our-team-text {
   color: #434455;
