@@ -94,7 +94,9 @@ button {
   align-items: center;
   letter-spacing: 0.04em;
 }
-.button :hover,
+.button :hover {
+  background: #404bbf;
+}
 .button :focus {
   background: #404bbf;
 }
@@ -122,16 +124,18 @@ button {
   text-transform: capitalize;
 }
 .our-team {
+  background: #f4f4fd;
+}
+.our-team-list {
   background: #ffffff;
 }
 .our-team-title {
   color: #2e2f42;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
 }
 .our-team-text {
   color: #434455;
