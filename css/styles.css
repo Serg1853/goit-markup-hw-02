@@ -139,6 +139,9 @@ button {
 .our-team-list {
   background: #ffffff;
 }
+.list-img-team {
+  background: #ffffff;
+}
 .our-team-title {
   color: #2e2f42;
   font-weight: 500;
@@ -154,6 +157,7 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  background: #ffffff;
 }
 .footer-logo {
   background: #2e2f42;
