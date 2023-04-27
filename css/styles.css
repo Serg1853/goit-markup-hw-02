@@ -34,31 +34,26 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-/* .page-nav {
-  color: #4d5ae5;
-  font-family: 'Raleway', sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-} */
 .logo-studio {
   color: #2e2f42;
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
+  line-height: 1.17;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
-.site-nav {
+.menu {
   color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.site-nav a:hover,
-.site-nav a:focus {
+.menu :hover,
+.menu :focus {
   color: #404bbf;
 }
 .address {
