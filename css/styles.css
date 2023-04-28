@@ -118,7 +118,9 @@ button {
   text-transform: capitalize;
   background: #f4f4fd;
 }
-
+.our-team-list {
+  background-color: #ffffff;
+}
 .our-team-title {
   color: #2e2f42;
   font-weight: 500;
